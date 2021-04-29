@@ -3,6 +3,6 @@ CREATE OR REPLACE TABLE emp_basic (
   last_name STRING ,
   email STRING ,
   streetaddress STRING ,
-  city STRING ,
+  city STRING 
   );
 
