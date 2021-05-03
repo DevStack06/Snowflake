@@ -1,2 +1,2 @@
 ALTER TABLE emp_basic
-DROP COLUMN city; 
+DROP COLUMN email; 
