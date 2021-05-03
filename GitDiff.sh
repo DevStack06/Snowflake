@@ -1,1 +1,6 @@
-git diff-tree -r   master developer --name-only --diff-filter=ACMRT  > my.diff
+#!/bin/bash
+input="gitdiff.txt"
+while IFS= read -r line
+do
+  echo "$line"
+done < "$input"
