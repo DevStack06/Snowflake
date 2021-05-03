@@ -1,0 +1,1 @@
+git diff-tree -r   master developer --name-only --diff-filter=ACMRT  > my.diff
